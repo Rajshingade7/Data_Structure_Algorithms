@@ -33,6 +33,7 @@ public class HashingSystem
     }
     void insert(int data)
     {    
+    	
           int index=data%MaxSize;
           if(hashtable[index]==-1)
           {
@@ -58,7 +59,6 @@ public class HashingSystem
           }
         }
     
-
     public static void main(String args[])
     {
         Scanner in=new Scanner(System.in);
@@ -97,7 +97,6 @@ public class HashingSystem
                         System.out.println("Wrong input");
                         break;
             }
-            
         }  while(ch!=0);
     }
 }
